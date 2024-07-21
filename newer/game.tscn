@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://pnjajjma2vph"]
+[gd_scene load_steps=12 format=3 uid="uid://pnjajjma2vph"]
 
 [ext_resource type="PackedScene" uid="uid://bru12qplbu4yk" path="res://ant.tscn" id="1_t6wjf"]
 [ext_resource type="Texture2D" uid="uid://bofkqy2c85hqt" path="res://Gemini_Generated_Image_mknlwlmknlwlmknl.jpeg" id="1_xhc27"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://b56ob1g4n7fk6" path="res://Gemini_Generated_Image_b48g2wb48g2wb48g-removebg-preview.png" id="6_rallt"]
 [ext_resource type="Texture2D" uid="uid://vx012gw5d47k" path="res://Gemini_Generated_Image_hsc97ihsc97ihsc9-removebg-preview.png" id="6_up71o"]
 [ext_resource type="Texture2D" uid="uid://kp6qf30r5yam" path="res://Gemini_Generated_Image_mfs34mmfs34mmfs3-removebg-preview.png" id="7_vtmno"]
+[ext_resource type="PackedScene" uid="uid://b7uyk0ehmvf54" path="res://chaser.tscn" id="8_mmwde"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_xbxlx"]
 radius = 243.994
@@ -3349,16 +3350,16 @@ texture = ExtResource("1_xhc27")
 
 [node name="ant" parent="." instance=ExtResource("1_t6wjf")]
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[node name="StaticBody" type="StaticBody2D" parent="."]
 position = Vector2(-1333, -817)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody"]
 shape = SubResource("CircleShape2D_xbxlx")
 
-[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)3" type="Sprite2D" parent="StaticBody2D"]
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)3" type="Sprite2D" parent="StaticBody"]
 texture = ExtResource("3_0mf6u")
 
-[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)4" type="Sprite2D" parent="StaticBody2D"]
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)4" type="Sprite2D" parent="StaticBody"]
 texture = ExtResource("3_0mf6u")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="."]
@@ -4099,3 +4100,6 @@ texture = ExtResource("7_vtmno")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D12"]
 position = Vector2(775, -286)
 shape = SubResource("CircleShape2D_wjymu")
+
+[node name="chaser" parent="." instance=ExtResource("8_mmwde")]
+position = Vector2(756, 404)

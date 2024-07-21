@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://b7uyk0ehmvf54"]
+
+[ext_resource type="Script" path="res://chaser.gd" id="1_3401o"]
+[ext_resource type="Texture2D" uid="uid://blr50nev747fe" path="res://Gemini_Generated_Image_3yxwra3yxwra3yxw-removebg-preview.png" id="2_4oqf6"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qwmcu"]
+radius = 30.0
+height = 150.0
+
+[node name="chaser" type="Area2D"]
+script = ExtResource("1_3401o")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_qwmcu")
+
+[node name="GeminiGeneratedImage3Yxwra3Yxwra3Yxw-removebg-preview" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("2_4oqf6")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.05
+autostart = true
+
+[node name="Timer2" type="Timer" parent="."]
+wait_time = 0.2
+autostart = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="Timer2" to="." method="_on_timer_2_timeout"]
