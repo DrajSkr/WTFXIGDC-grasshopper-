@@ -1,10 +1,22 @@
-[gd_scene load_steps=6 format=3 uid="uid://pnjajjma2vph"]
+[gd_scene load_steps=11 format=3 uid="uid://pnjajjma2vph"]
 
 [ext_resource type="PackedScene" uid="uid://bru12qplbu4yk" path="res://ant.tscn" id="1_t6wjf"]
 [ext_resource type="Texture2D" uid="uid://bofkqy2c85hqt" path="res://Gemini_Generated_Image_mknlwlmknlwlmknl.jpeg" id="1_xhc27"]
 [ext_resource type="Texture2D" uid="uid://ckw43q4dgokjh" path="res://Gemini_Generated_Image_sro40fsro40fsro4-removebg-preview (1).png" id="3_0mf6u"]
 [ext_resource type="Texture2D" uid="uid://bu5kqm7m7msvt" path="res://Gemini_Generated_Image_r86pc3r86pc3r86p-removebg-preview (1).png" id="4_5c384"]
+[ext_resource type="Texture2D" uid="uid://b56ob1g4n7fk6" path="res://Gemini_Generated_Image_b48g2wb48g2wb48g-removebg-preview.png" id="6_rallt"]
 [ext_resource type="Texture2D" uid="uid://vx012gw5d47k" path="res://Gemini_Generated_Image_hsc97ihsc97ihsc9-removebg-preview.png" id="6_up71o"]
+[ext_resource type="Texture2D" uid="uid://kp6qf30r5yam" path="res://Gemini_Generated_Image_mfs34mmfs34mmfs3-removebg-preview.png" id="7_vtmno"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xbxlx"]
+radius = 243.994
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ib4vk"]
+radius = 153.39
+height = 602.647
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wjymu"]
+radius = 259.069
 
 [node name="Node2D" type="Node2D"]
 
@@ -3025,7 +3037,7 @@ texture = ExtResource("1_xhc27")
 
 [node name="Node30" type="Sprite2D" parent="."]
 modulate = Color(0.745098, 0.745098, 0.745098, 1)
-position = Vector2(11379, -4552)
+position = Vector2(5489, -2378)
 
 [node name="GeminiGeneratedImageMknlwlmknlwlmknl" type="Sprite2D" parent="Node30"]
 position = Vector2(-4436, -1792)
@@ -3127,31 +3139,351 @@ position = Vector2(-1923, -4.00001)
 scale = Vector2(0.43, 0.43)
 texture = ExtResource("1_xhc27")
 
+[node name="Node31" type="Sprite2D" parent="."]
+modulate = Color(0.745098, 0.745098, 0.745098, 1)
+position = Vector2(9974, -2046)
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl" type="Sprite2D" parent="Node31"]
+position = Vector2(-4436, -1792)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl2" type="Sprite2D" parent="Node31"]
+position = Vector2(-3796, -1792)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl3" type="Sprite2D" parent="Node31"]
+position = Vector2(-3149, -1792)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl4" type="Sprite2D" parent="Node31"]
+position = Vector2(-2502, -1792)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl5" type="Sprite2D" parent="Node31"]
+position = Vector2(-2503, -1212)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl6" type="Sprite2D" parent="Node31"]
+position = Vector2(-3126, -1197)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl7" type="Sprite2D" parent="Node31"]
+position = Vector2(-3754, -1192)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl8" type="Sprite2D" parent="Node31"]
+position = Vector2(-4415, -1178)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl9" type="Sprite2D" parent="Node31"]
+position = Vector2(-4420, -564)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl10" type="Sprite2D" parent="Node31"]
+position = Vector2(-3806, -583)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl11" type="Sprite2D" parent="Node31"]
+position = Vector2(-3154, -571)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl12" type="Sprite2D" parent="Node31"]
+position = Vector2(-2507, -579)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl13" type="Sprite2D" parent="Node31"]
+position = Vector2(-1898, -1792)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl14" type="Sprite2D" parent="Node31"]
+position = Vector2(-1898, -1164)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl15" type="Sprite2D" parent="Node31"]
+position = Vector2(-1903, -588)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl16" type="Sprite2D" parent="Node31"]
+position = Vector2(-4409, 36)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl17" type="Sprite2D" parent="Node31"]
+position = Vector2(-3761, 30)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl18" type="Sprite2D" parent="Node31"]
+position = Vector2(-3184, 50)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl19" type="Sprite2D" parent="Node31"]
+position = Vector2(-2582, 50)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl20" type="Sprite2D" parent="Node31"]
+position = Vector2(-1923, -4.00001)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="Node32" type="Sprite2D" parent="."]
+modulate = Color(0.745098, 0.745098, 0.745098, 1)
+position = Vector2(10122, -3058)
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl" type="Sprite2D" parent="Node32"]
+position = Vector2(-4436, -1792)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl2" type="Sprite2D" parent="Node32"]
+position = Vector2(-3796, -1792)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl3" type="Sprite2D" parent="Node32"]
+position = Vector2(-3149, -1792)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl4" type="Sprite2D" parent="Node32"]
+position = Vector2(-2502, -1792)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl5" type="Sprite2D" parent="Node32"]
+position = Vector2(-2503, -1212)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl6" type="Sprite2D" parent="Node32"]
+position = Vector2(-3126, -1197)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl7" type="Sprite2D" parent="Node32"]
+position = Vector2(-3754, -1192)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl8" type="Sprite2D" parent="Node32"]
+position = Vector2(-4415, -1178)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl9" type="Sprite2D" parent="Node32"]
+position = Vector2(-4420, -564)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl10" type="Sprite2D" parent="Node32"]
+position = Vector2(-3806, -583)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl11" type="Sprite2D" parent="Node32"]
+position = Vector2(-3154, -571)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl12" type="Sprite2D" parent="Node32"]
+position = Vector2(-2507, -579)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl13" type="Sprite2D" parent="Node32"]
+position = Vector2(-1898, -1792)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl14" type="Sprite2D" parent="Node32"]
+position = Vector2(-1898, -1164)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl15" type="Sprite2D" parent="Node32"]
+position = Vector2(-1903, -588)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl16" type="Sprite2D" parent="Node32"]
+position = Vector2(-4409, 36)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl17" type="Sprite2D" parent="Node32"]
+position = Vector2(-3761, 30)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl18" type="Sprite2D" parent="Node32"]
+position = Vector2(-3184, 50)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl19" type="Sprite2D" parent="Node32"]
+position = Vector2(-2582, 50)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
+[node name="GeminiGeneratedImageMknlwlmknlwlmknl20" type="Sprite2D" parent="Node32"]
+position = Vector2(-1923, -4.00001)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("1_xhc27")
+
 [node name="ant" parent="." instance=ExtResource("1_t6wjf")]
 
-[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)" type="Sprite2D" parent="."]
-position = Vector2(-446, 133)
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(-1333, -817)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("CircleShape2D_xbxlx")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)3" type="Sprite2D" parent="StaticBody2D"]
 texture = ExtResource("3_0mf6u")
 
-[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)2" type="Sprite2D" parent="."]
-position = Vector2(808, -423)
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)4" type="Sprite2D" parent="StaticBody2D"]
 texture = ExtResource("3_0mf6u")
 
-[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)3" type="Sprite2D" parent="."]
-position = Vector2(-1273, -565)
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+position = Vector2(-3215, -182)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+shape = SubResource("CircleShape2D_xbxlx")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)3" type="Sprite2D" parent="StaticBody2D2"]
 texture = ExtResource("3_0mf6u")
 
-[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)4" type="Sprite2D" parent="."]
-position = Vector2(801, 717)
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)4" type="Sprite2D" parent="StaticBody2D2"]
 texture = ExtResource("3_0mf6u")
 
-[node name="GeminiGeneratedImageR86Pc3r86Pc3r86p-removebg-preview(1)" type="Sprite2D" parent="."]
-position = Vector2(-617, -394)
-texture = ExtResource("4_5c384")
+[node name="StaticBody2D4" type="StaticBody2D" parent="."]
+position = Vector2(-2596, -3131)
 
-[node name="PointLight2D" type="PointLight2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D4"]
+shape = SubResource("CircleShape2D_xbxlx")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)3" type="Sprite2D" parent="StaticBody2D4"]
+texture = ExtResource("3_0mf6u")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)4" type="Sprite2D" parent="StaticBody2D4"]
+texture = ExtResource("3_0mf6u")
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="."]
+position = Vector2(2337, 1349)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D5"]
+shape = SubResource("CircleShape2D_xbxlx")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)3" type="Sprite2D" parent="StaticBody2D5"]
+texture = ExtResource("3_0mf6u")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)4" type="Sprite2D" parent="StaticBody2D5"]
+texture = ExtResource("3_0mf6u")
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="."]
+position = Vector2(2790, -1276)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D6"]
+shape = SubResource("CircleShape2D_xbxlx")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)3" type="Sprite2D" parent="StaticBody2D6"]
+texture = ExtResource("3_0mf6u")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)4" type="Sprite2D" parent="StaticBody2D6"]
+texture = ExtResource("3_0mf6u")
+
+[node name="StaticBody2D7" type="StaticBody2D" parent="."]
+position = Vector2(-2211, 3159)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D7"]
+shape = SubResource("CircleShape2D_xbxlx")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)3" type="Sprite2D" parent="StaticBody2D7"]
+texture = ExtResource("3_0mf6u")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)4" type="Sprite2D" parent="StaticBody2D7"]
+texture = ExtResource("3_0mf6u")
+
+[node name="StaticBody2D8" type="StaticBody2D" parent="."]
+position = Vector2(5618, -2407)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D8"]
+shape = SubResource("CircleShape2D_xbxlx")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)3" type="Sprite2D" parent="StaticBody2D8"]
+texture = ExtResource("3_0mf6u")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)4" type="Sprite2D" parent="StaticBody2D8"]
+texture = ExtResource("3_0mf6u")
+
+[node name="StaticBody2D9" type="StaticBody2D" parent="."]
+position = Vector2(1590, -3335)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D9"]
+shape = SubResource("CircleShape2D_xbxlx")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)3" type="Sprite2D" parent="StaticBody2D9"]
+texture = ExtResource("3_0mf6u")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)4" type="Sprite2D" parent="StaticBody2D9"]
+texture = ExtResource("3_0mf6u")
+
+[node name="StaticBody2D10" type="StaticBody2D" parent="."]
+position = Vector2(1590, -3335)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D10"]
+shape = SubResource("CircleShape2D_xbxlx")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)3" type="Sprite2D" parent="StaticBody2D10"]
+texture = ExtResource("3_0mf6u")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)4" type="Sprite2D" parent="StaticBody2D10"]
+texture = ExtResource("3_0mf6u")
+
+[node name="StaticBody2D11" type="StaticBody2D" parent="."]
+position = Vector2(5465, 582)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D11"]
+shape = SubResource("CircleShape2D_xbxlx")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)3" type="Sprite2D" parent="StaticBody2D11"]
+texture = ExtResource("3_0mf6u")
+
+[node name="GeminiGeneratedImageSro40Fsro40Fsro4-removebg-preview(1)4" type="Sprite2D" parent="StaticBody2D11"]
+texture = ExtResource("3_0mf6u")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="."]
 position = Vector2(-606, -399)
+
+[node name="GeminiGeneratedImageR86Pc3r86Pc3r86p-removebg-preview(1)" type="Sprite2D" parent="StaticBody2D3"]
+position = Vector2(-11, 5)
 texture = ExtResource("4_5c384")
+
+[node name="PointLight2D" type="PointLight2D" parent="StaticBody2D3/GeminiGeneratedImageR86Pc3r86Pc3r86p-removebg-preview(1)"]
+position = Vector2(11, -5)
+texture = ExtResource("4_5c384")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3"]
+position = Vector2(-11, 5)
+rotation = -2.38412
+shape = SubResource("CapsuleShape2D_ib4vk")
 
 [node name="GeminiGeneratedImageHsc97Ihsc97Ihsc9-removebg-preview2" type="Sprite2D" parent="."]
 position = Vector2(-1155, 522)
@@ -3195,6 +3527,547 @@ texture = ExtResource("6_up71o")
 [node name="PointLight2D" type="PointLight2D" parent="GeminiGeneratedImageHsc97Ihsc97Ihsc9-removebg-preview7"]
 texture = ExtResource("6_up71o")
 
+[node name="boundary" type="Sprite2D" parent="."]
+position = Vector2(-5486, -339)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary2" type="Sprite2D" parent="."]
+position = Vector2(-5499, -1634)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary2"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary2"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary2"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary3" type="Sprite2D" parent="."]
+position = Vector2(-5512, -2790)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary3"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary3"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary3"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary4" type="Sprite2D" parent="."]
+position = Vector2(-5537, -3996)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary4"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary4"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary4"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary5" type="Sprite2D" parent="."]
+position = Vector2(-5499, 919)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary5"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary5"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary5"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary6" type="Sprite2D" parent="."]
+position = Vector2(-5478, 2179)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary6"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary6"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary6"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary7" type="Sprite2D" parent="."]
+position = Vector2(-5478, 3354)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary7"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary7"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary7"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary8" type="Sprite2D" parent="."]
+position = Vector2(-5585, -4441)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary8"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary8"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary8"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary9" type="Sprite2D" parent="."]
+position = Vector2(-4837, -4334)
+rotation = 1.58825
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary9"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary9"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary9"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary10" type="Sprite2D" parent="."]
+position = Vector2(-3598, -4313)
+rotation = 1.58825
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary10"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary10"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary10"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary11" type="Sprite2D" parent="."]
+position = Vector2(-2451, -4287)
+rotation = 1.58825
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary11"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary11"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary11"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary12" type="Sprite2D" parent="."]
+position = Vector2(-1159, -4273)
+rotation = 1.58825
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary12"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary12"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary12"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary13" type="Sprite2D" parent="."]
+position = Vector2(87, -4239)
+rotation = 1.58825
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary13"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary13"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary13"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary14" type="Sprite2D" parent="."]
+position = Vector2(2550, -4162)
+rotation = 1.58825
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary14"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary14"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary14"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary16" type="Sprite2D" parent="."]
+position = Vector2(3790, -4140)
+rotation = 1.58825
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary16"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary16"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary16"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary17" type="Sprite2D" parent="."]
+position = Vector2(5049, -4120)
+rotation = 1.58825
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary17"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary17"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary17"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary18" type="Sprite2D" parent="."]
+position = Vector2(6269, -4095)
+rotation = 1.58825
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary18"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary18"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary18"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary19" type="Sprite2D" parent="."]
+position = Vector2(7524, -4075)
+rotation = 1.58825
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary19"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary19"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary19"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary20" type="Sprite2D" parent="."]
+position = Vector2(7950, -3358)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary20"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary20"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary20"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary21" type="Sprite2D" parent="."]
+position = Vector2(7945, -2172)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary21"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary21"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary21"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary22" type="Sprite2D" parent="."]
+position = Vector2(7950, -882)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary22"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary22"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary22"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary23" type="Sprite2D" parent="."]
+position = Vector2(7972, 284)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary23"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary23"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary23"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary24" type="Sprite2D" parent="."]
+position = Vector2(7972, 1460)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary24"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary24"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary24"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary25" type="Sprite2D" parent="."]
+position = Vector2(7981, 2645)
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary25"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary25"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary25"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary26" type="Sprite2D" parent="."]
+position = Vector2(7447, 3328)
+rotation = -1.79071
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary26"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary26"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary26"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary27" type="Sprite2D" parent="."]
+position = Vector2(6272, 3563)
+rotation = -1.79071
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary27"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary27"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary27"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary28" type="Sprite2D" parent="."]
+position = Vector2(5089, 3831)
+rotation = -1.79071
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary28"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary28"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary28"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary29" type="Sprite2D" parent="."]
+position = Vector2(3836, 4020)
+rotation = -1.6633
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary29"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary29"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary29"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary30" type="Sprite2D" parent="."]
+position = Vector2(2560, 4118)
+rotation = -1.6633
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary30"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary30"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary30"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary31" type="Sprite2D" parent="."]
+position = Vector2(1385, 4238)
+rotation = -1.6633
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary31"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary31"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary31"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary32" type="Sprite2D" parent="."]
+position = Vector2(306, 4334)
+rotation = -1.6633
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary32"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary32"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary32"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary33" type="Sprite2D" parent="."]
+position = Vector2(-1013, 4430)
+rotation = -1.6633
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary33"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary33"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary33"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary34" type="Sprite2D" parent="."]
+position = Vector2(-2273, 4548)
+rotation = -1.6633
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary34"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary34"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary34"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary35" type="Sprite2D" parent="."]
+position = Vector2(-3489, 4662)
+rotation = -1.6633
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary35"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary35"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary35"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary36" type="Sprite2D" parent="."]
+position = Vector2(-4621, 4513)
+rotation = -1.18508
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary36"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary36"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary36"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary37" type="Sprite2D" parent="."]
+position = Vector2(-5389, 4131)
+rotation = -1.18508
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary37"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary37"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary37"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
+[node name="boundary15" type="Sprite2D" parent="."]
+position = Vector2(1344, -4188)
+rotation = 1.58825
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview" type="Sprite2D" parent="boundary15"]
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview2" type="Sprite2D" parent="boundary15"]
+position = Vector2(8, 436)
+texture = ExtResource("6_rallt")
+
+[node name="GeminiGeneratedImageB48g2Wb48g2Wb48g-removebg-preview3" type="Sprite2D" parent="boundary15"]
+position = Vector2(6, -356)
+texture = ExtResource("6_rallt")
+
 [node name="GeminiGeneratedImageHsc97Ihsc97Ihsc9-removebg-preview8" type="Sprite2D" parent="."]
 modulate = Color(0.481789, 0.481789, 0.481789, 1)
 position = Vector2(-1545, 211)
@@ -3211,3 +4084,18 @@ texture = ExtResource("6_up71o")
 
 [node name="PointLight2D" type="PointLight2D" parent="GeminiGeneratedImageHsc97Ihsc97Ihsc9-removebg-preview6"]
 texture = ExtResource("6_up71o")
+
+[node name="StaticBody2D12" type="StaticBody2D" parent="."]
+position = Vector2(2793, 1881)
+
+[node name="GeminiGeneratedImageMfs34Mmfs34Mmfs3-removebg-preview" type="Sprite2D" parent="StaticBody2D12"]
+position = Vector2(743, -324)
+rotation = -2.03505
+texture = ExtResource("7_vtmno")
+
+[node name="PointLight2D" type="PointLight2D" parent="StaticBody2D12/GeminiGeneratedImageMfs34Mmfs34Mmfs3-removebg-preview"]
+texture = ExtResource("7_vtmno")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D12"]
+position = Vector2(775, -286)
+shape = SubResource("CircleShape2D_wjymu")
